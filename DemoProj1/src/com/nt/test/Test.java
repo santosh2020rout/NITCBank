@@ -1,10 +1,15 @@
 package com.nt.test;
 
+import com.nt.beans.CitiBank;
+
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+			CitiBank cb=new CitiBank();
+			cb.withdraw();
+		}
 
-	}
+	
 
 }
